@@ -7,13 +7,51 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Admin Dashboard</h1>
-    </header>
-    
-    <main>
-        <p>Welcome to your admin dashboard.</p>
-    </main>
+    <div class="container"> 
+        <div class="sidebar"> 
+            <h1>Dashboard</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>History</li>
+                    <li>Tasks</li>
+                    <li>Communities</li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header">
+            <form action="/submit" method="POST">
+                <input type="submit" value=🔍>
+                <input type="search">
+            </form>
+            <p>Hi there,</p>
+            <h1>Morgan Oakley (@morgan)</h1>
+            
+        </div>
+        
+        <div class="main-content">
+            <h1>Your Projects</h1>
+            <div class="cards-container">
+                <div class="card">Super Cool Project</div>
+                <div class="card">Less Cool Project</div>
+                <div class="card">Impossible App</div>
+                <div class="card">Easy Peasy App</div>
+                <div class="card">Ad Blocker</div>
+                <div class="card">Money Maker</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
